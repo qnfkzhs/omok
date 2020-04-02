@@ -13,7 +13,7 @@
     unsigned char g_dol[Y_COUNT][X_COUNT]; 
     unsigned char g_step; 
     bool currentTurn;
-LPCTSTR lpszClass = TEXT("À¯¿µÁø_17032049_¿À¸ñ°ÔÀÓ");
+LPCTSTR lpszClass = TEXT("ìœ ì˜ì§„_17032049_ì˜¤ëª©ê²Œì„");
     void OnPaint(HWND ah_wnd) 
     { 
         PAINTSTRUCT ps; 
@@ -104,12 +104,12 @@ void checkWin(HWND hWnd, int a_x, int a_y)
 					if(count==5){
 						if(g_step==1)
 						{
-							MessageBox(hWnd, "Èæµ¹ÀÇ ½Â¸®ÀÔ´Ï´Ù", "°ÔÀÓÁ¾·á", 0);
+							MessageBox(hWnd, "í‘ëŒì˜ ìŠ¹ë¦¬ì…ë‹ˆë‹¤", "ê²Œì„ì¢…ë£Œ", 0);
 							PostQuitMessage(0);
 						}
 						else
 						{
-							MessageBox(hWnd, "¹éµ¹ÀÇ ½Â¸®ÀÔ´Ï´Ù", "°ÔÀÓÁ¾·á", 0);
+							MessageBox(hWnd, "ë°±ëŒì˜ ìŠ¹ë¦¬ì…ë‹ˆë‹¤", "ê²Œì„ì¢…ë£Œ", 0);
 							PostQuitMessage(0);
 						}
 					}
